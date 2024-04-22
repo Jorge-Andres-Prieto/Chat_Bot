@@ -10,6 +10,17 @@ from keras.models import Sequential
 from keras.layers import Dense, Activation, Dropout
 from tensorflow.keras.optimizers import SGD
 
+def setup_nltk():
+    nltk_resources = ['punkt', 'wordnet', 'omw-1.4']
+    for resource in nltk_resources:
+        try:
+            nltk.data.find(resource)
+        except LookupError:
+            nltk.download(resource)
+
+# Llamar a setup_nltk al inicio para asegurar la disponibilidad de recursos
+setup_nltk()
+
 # Cargar y preparar datos
 lemmatizer = WordNetLemmatizer()
 with open('intents.json', 'r') as file:

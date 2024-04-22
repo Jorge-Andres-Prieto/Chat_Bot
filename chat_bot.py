@@ -8,6 +8,17 @@ from nltk.stem import WordNetLemmatizer
 from keras.models import load_model
 from tensorflow.keras.optimizers import SGD  # Solo si decides recompilar el modelo
 
+def setup_nltk():
+    nltk_resources = ['punkt', 'wordnet', 'omw-1.4']
+    for resource in nltk_resources:
+        try:
+            nltk.data.find(resource)
+        except LookupError:
+            nltk.download(resource)
+
+# Llamar a setup_nltk al inicio para asegurar la disponibilidad de recursos
+setup_nltk()
+
 # Inicialización del lematizador y carga de datos
 lemmatizer = WordNetLemmatizer()
 with open('intents.json', 'r') as file:
