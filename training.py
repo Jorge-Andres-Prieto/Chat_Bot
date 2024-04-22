@@ -10,13 +10,22 @@ from keras.models import Sequential
 from keras.layers import Dense, Activation, Dropout
 from tensorflow.keras.optimizers import SGD
 
+
 def setup_nltk():
+    """Configura los recursos necesarios de NLTK.
+
+    Descarga los recursos 'punkt', 'wordnet' y 'omw-1.4' si no están
+    presentes en el entorno de ejecución. Esto es necesario para asegurar
+    que las funciones de NLTK que dependen de estos recursos puedan
+    operar correctamente.
+    """
     nltk_resources = ['punkt', 'wordnet', 'omw-1.4']
     for resource in nltk_resources:
         try:
             nltk.data.find(resource)
         except LookupError:
             nltk.download(resource)
+
 
 # Llamar a setup_nltk al inicio para asegurar la disponibilidad de recursos
 setup_nltk()
