@@ -9,14 +9,17 @@
   <li><a href="#contacto">Contacto</a></li>
 </ul>
 
-<h2>Acerca de UNalBot🤖</h2>
+<h3>Acerca de UNalBot🤖</h3>
 <p>UNalBot es un chatbot diseñado y creado por un estudiante de la Universidad Nacional de Colombia para servir como un asistente virtual dentro de la misma universidad. Esta aplicación utiliza técnicas de procesamiento de lenguaje natural para interpretar y responder a las consultas en lenguaje humano de manera eficiente y efectiva.</p>
 
-<h2>Cómo Funciona</h2>
+<h3>Cómo Funciona</h3>
 <p>El bot se entrena con un conjunto de datos en formato JSON, que incluye varios intents y sus correspondientes patrones y respuestas. Utilizando NLTK para el procesamiento del texto y Keras/TensorFlow para el modelo de aprendizaje automático, UNalBot puede generar respuestas adecuadas basadas en las consultas recibidas.</p>
 
-<h2>Información Técnica</h2>
+<h3>Información Técnica</h3>
 <p>UNalBot utiliza la biblioteca NLTK para procesar y analizar el lenguaje humano. Los datos para entrenar al bot están estructurados en formato JSON, permitiendo una fácil expansión y modificación. Streamlit proporciona la interfaz de usuario, ofreciendo una interacción fluida y amigable en un entorno de chat con roles de usuario y asistente integrados.</p>
+
+<h3 id="feedback">Feedback</h3>
+<p>Estoy abierto a recibir consejos y sugerencias para mejorar UNalBot. Si tienes ideas o feedback que puedan ayudar a mejorar esta herramienta, no dudes en ponerte en contacto a través de cualquiera de los medios listados a continuación.</p>
 
 <h3 id="contacto" align="center">Contacto</h3>
 <p align="center">
