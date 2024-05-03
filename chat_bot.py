@@ -30,7 +30,7 @@ setup_nltk()
 
 # Inicialización del lematizador y carga de datos
 lemmatizer = WordNetLemmatizer()
-with open('intents.json', 'r') as file:
+with open('intents.json', 'r', encoding='utf-8') as file:
     intents = json.load(file)
 
 words = pickle.load(open('words.pkl', 'rb'))

@@ -32,7 +32,7 @@ setup_nltk()
 
 # Cargar y preparar datos
 lemmatizer = WordNetLemmatizer()
-with open('intents.json', 'r') as file:
+with open('intents.json', 'r', encoding='utf-8') as file:
     intents = json.load(file)
 
 # Descargar recursos de NLTK
