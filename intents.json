@@ -3,132 +3,160 @@
     {
       "tag": "saludo",
       "patterns": ["hola", "buen día", "buenas tardes", "saludos"],
-      "responses": ["¡Hola! ¿En qué puedo ayudarte?", "Buenos días, ¿cómo puedo asistirte hoy?", "Saludos, bienvenido a la Universidad Nacional de Colombia, sede Medellín"]
+      "responses": ["¡Hola! 🌟 ¿En qué puedo ayudarte?", "Buenos días, ¿cómo puedo asistirte hoy? 😊", "Saludos, bienvenido a la Universidad Nacional de Colombia, sede Medellín 🏛️"]
     },
     {
       "tag": "informacion_general",
       "patterns": ["cuéntame sobre la Universidad Nacional sede Medellín", "información de la Universidad Nacional de Colombia sede Medellín"],
-      "responses": ["La Universidad Nacional de Colombia, sede Medellín, ofrece una amplia variedad de programas académicos y es conocida por su excelencia en ingeniería y arquitectura."]
-    },
-    {
-      "tag": "programas_academicos",
-      "patterns": ["qué programas ofrecen", "cuáles son las carreras disponibles", "lista de programas académicos"],
-      "responses": ["Ofrecemos programas en ingeniería, arquitectura, ciencias humanas y más. ¿Te interesa algún área específica?"]
-    },
-    {
-      "tag": "eventos",
-      "patterns": ["eventos próximos en la universidad", "cuáles son los próximos eventos", "calendario de eventos"],
-      "responses": ["Tenemos varios eventos próximos, incluyendo seminarios de investigación y ferias de empleo. ¿Te gustaría más información sobre algún evento en particular?"]
-    },
-    {
-      "tag": "servicios_estudiantiles",
-      "patterns": ["qué servicios estudiantiles ofrecen", "información sobre becas", "cómo puedo contactar a consejería"],
-      "responses": ["Ofrecemos servicios de consejería, apoyo financiero, actividades extracurriculares y más. ¿Necesitas información sobre algún servicio específico?"]
-    },
-    {
-      "tag": "faq",
-      "patterns": ["dónde está ubicada la biblioteca", "cómo puedo cambiar de carrera", "qué hacer en caso de perder el carné estudiantil"],
-      "responses": ["La biblioteca se encuentra en el edificio principal. Para cambiar de carrera, debes hablar con tu consejero académico. Si pierdes tu carné, debes reportarlo en la oficina de seguridad."]
+      "responses": ["La Universidad Nacional de Colombia, sede Medellín, ofrece una amplia variedad de programas académicos y es conocida por su excelencia en ingeniería y arquitectura. 🎓"]
     },
     {
       "tag": "admisiones",
-      "patterns": ["¿Cómo puedo aplicar?", "Proceso de admisión", "¿Qué necesito para entrar a la universidad?"],
-      "responses": ["Puedes aplicar a través de nuestra página web. Necesitas completar el formulario de inscripción y presentar los resultados de tus pruebas."]
+      "patterns": [
+        "¿Cómo puedo aplicar para pregrado?",
+        "¿Qué necesito para inscribirme en un programa de postgrado?",
+        "¿Dónde encuentro información sobre admisiones?"
+      ],
+      "responses": [
+        "Puedes encontrar toda la información sobre el proceso de admisión para pregrado y postgrado en https://admisiones.unal.edu.co/ 📚"
+      ]
     },
     {
-      "tag": "horarios_de_clase",
-      "patterns": ["¿Cuál es el horario de clases?", "Horarios del semestre"],
-      "responses": ["Los horarios de clase varían según el programa y el semestre. Te recomiendo consultar la página web de tu facultad."]
+      "tag": "programas_academicos",
+      "patterns": [
+        "¿Qué programas de pregrado ofrece la universidad?",
+        "¿Dónde puedo encontrar los programas de postgrado disponibles?",
+        "¿Cuáles son las especializaciones que tiene la universidad?"
+      ],
+      "responses": [
+        "Consulta los programas de pregrado en http://www.pregrado.unal.edu.co/programas-acred/ y los programas de postgrado en https://posgrados.unal.edu.co/catalogo/ 🎓"
+      ]
     },
     {
-      "tag": "ubicacion_campus",
-      "patterns": ["¿Dónde está ubicado el campus?", "Dirección del campus"],
-      "responses": ["El campus principal está ubicado en la Carrera 80 # 65-223, Medellín."]
+      "tag": "cursos_capacitaciones",
+      "patterns": [
+        "¿Dónde puedo encontrar cursos de educación continua?",
+        "¿Ofrecen cursos de idiomas?",
+        "¿Cuáles son los cursos pagos disponibles?"
+      ],
+      "responses": [
+        "La oferta de cursos de educación continua la encuentras en https://medellin.unal.edu.co/educacioncontinua/ y los cursos de idiomas en https://centrodeidiomas.medellin.unal.edu.co/es/ 🌍"
+      ]
     },
     {
-      "tag": "matricula",
-      "patterns": ["¿Cómo hago para matricularme?", "Proceso de matrícula", "¿Cuándo son las matrículas?"],
-      "responses": ["El proceso de matrícula se realiza en línea a través del sistema académico. Las fechas varían cada semestre, así que mantente atento a los anuncios."]
+      "tag": "bienestar_universitario",
+      "patterns": [
+        "¿Qué servicios ofrece el bienestar universitario?",
+        "¿Cómo puedo acceder a los servicios de salud en la universidad?",
+        "¿Dónde encuentro actividades deportivas?"
+      ],
+      "responses": [
+        "Bienestar Universitario ofrece servicios de salud, cultura, actividad física y deporte, y más. Encuentra más información en https://bienestaruniversitario.medellin.unal.edu.co/ 🏥🎭"
+      ]
     },
     {
-      "tag": "becas",
-      "patterns": ["¿Ofrecen becas?", "¿Cómo puedo solicitar una beca?", "Información sobre becas"],
-      "responses": ["Ofrecemos diversas becas y ayudas financieras. Puedes encontrar más información y cómo aplicar en la sección de becas de nuestra página web."]
+      "tag": "saludos",
+      "patterns": [
+        "Hola",
+        "Buenos días",
+        "Buenas tardes"
+      ],
+      "responses": [
+        "¡Hola! ¿En qué puedo ayudarte hoy? 😄",
+        "Buenos días, estoy aquí para responder tus preguntas. 🌞",
+        "¡Hola! ¿Cómo puedo asistirte? 👋"
+      ]
     },
     {
-      "tag": "cambio_de_carrera",
-      "patterns": ["Quiero cambiar mi carrera", "¿Cómo cambio de programa académico?", "Proceso para cambiar de carrera"],
-      "responses": ["Para cambiar de carrera, debes solicitarlo a través de la secretaría de tu facultad. Se requiere que cumplas con ciertos requisitos académicos."]
+      "tag": "despedidas",
+      "patterns": [
+        "Adiós",
+        "Hasta luego",
+        "Gracias por la ayuda"
+      ],
+      "responses": [
+        "¡Adiós! Espero haberte ayudado. ¡Vuelve pronto! 👋",
+        "Hasta luego, ¡espero que tengas un gran día! 🌈",
+        "De nada, ¡estoy aquí para ayudarte cuando lo necesites! 😊"
+      ]
     },
     {
-      "tag": "profesores",
-      "patterns": ["¿Quiénes son los profesores del departamento de matemáticas?", "Quiero saber sobre los profesores", "Información de los docentes"],
-      "responses": ["Nuestros profesores son expertos en sus campos. Para información detallada, te recomiendo visitar la página del departamento correspondiente."]
+      "tag": "facultad_arquitectura",
+      "patterns": [
+        "¿Qué carreras ofrece la facultad de arquitectura?",
+        "¿Cuáles son las carreras disponibles en la facultad de arquitectura?",
+        "¿Qué estudios puedo seguir en la facultad de arquitectura?"
+      ],
+      "responses": [
+        "La facultad de arquitectura ofrece programas en arquitectura, artes plásticas y construcción. Puedes encontrar más información en http://www.pregrado.unal.edu.co/programas-acred/ 🏛️"
+      ]
     },
     {
-      "tag": "estacionamiento",
-      "patterns": ["¿Hay estacionamiento en el campus?", "¿Dónde puedo estacionar mi carro?", "Información sobre parqueaderos"],
-      "responses": ["Contamos con áreas de estacionamiento disponibles para estudiantes y profesores. Está sujeto a disponibilidad."]
+      "tag": "facultad_ciencias",
+      "patterns": [
+        "¿Qué carreras ofrece la facultad de ciencias?",
+        "¿Cuáles son las carreras disponibles en la facultad de ciencias?",
+        "¿Qué estudios puedo seguir en la facultad de ciencias?"
+      ],
+      "responses": [
+        "La facultad de ciencias ofrece estudios en estadística, ingeniería biológica, ingeniería física y matemáticas. Encuentra más información en http://www.pregrado.unal.edu.co/programas-acred/ 🔬"
+      ]
     },
     {
-      "tag": "servicios_medicos",
-      "patterns": ["¿Hay servicios médicos en la universidad?", "¿Dónde está el centro de salud?", "Atención médica en campus"],
-      "responses": ["La universidad cuenta con un centro de salud que ofrece servicios médicos básicos a estudiantes y empleados."]
+      "tag": "facultad_ciencias_agrarias",
+      "patterns": [
+        "¿Qué carreras ofrece la facultad de ciencias agrarias?",
+        "¿Cuáles son las carreras disponibles en la facultad de ciencias agrarias?",
+        "¿Qué estudios puedo seguir en la facultad de ciencias agrarias?"
+      ],
+      "responses": [
+        "En la facultad de ciencias agrarias puedes estudiar ingeniería agrícola, ingeniería agronómica, ingeniería forestal, tecnología forestal y zootecnia. Más detalles en http://www.pregrado.unal.edu.co/programas-acred/ 🌾"
+      ]
     },
     {
-      "tag": "actividades_extracurriculares",
-      "patterns": ["¿Qué actividades extracurriculares hay?", "Clubes en la universidad", "Deportes en la universidad"],
-      "responses": ["Ofrecemos una variedad de actividades extracurriculares, desde deportes hasta clubes de arte y debate. Puedes consultar la oferta completa en nuestra página de actividades estudiantiles."]
+      "tag": "facultad_ciencias_humanas_economicas",
+      "patterns": [
+        "¿Qué carreras ofrece la facultad de ciencias humanas y económicas?",
+        "¿Cuáles son las carreras disponibles en la facultad de ciencias humanas y económicas?",
+        "¿Qué estudios puedo seguir en la facultad de ciencias humanas y económicas?"
+      ],
+      "responses": [
+        "La facultad de ciencias humanas y económicas ofrece programas en ciencia política, economía e historia. Consulta más información en http://www.pregrado.unal.edu.co/programas-acred/ 📚"
+      ]
     },
     {
-      "tag": "contacto_admisiones",
-      "patterns": ["¿Cómo contacto a admisiones?", "Número de teléfono de admisiones", "Email de admisiones"],
-      "responses": ["Puedes contactar al departamento de admisiones al +57 4 4309000 o enviar un correo a admisiones_medellin@unal.edu.co. Más información en [Admisiones](http://admisiones.unal.edu.co/)"]
+      "tag": "facultad_minas",
+      "patterns": [
+        "¿Qué carreras ofrece la facultad de minas?",
+        "¿Cuáles son las carreras disponibles en la facultad de minas?",
+        "¿Qué estudios puedo seguir en la facultad de minas?"
+      ],
+      "responses": [
+        "La facultad de minas ofrece ingenierías en administrativa, ambiental, civil, control, minas y metalurgia, petróleos, sistemas e informática, eléctrica, geológica, industrial, mecánica y química. Más detalles en http://www.pregrado.unal.edu.co/programas-acred/ ⛏️"
+      ]
     },
     {
-      "tag": "pagina_principal",
-      "patterns": ["Dame el link de la página principal", "Sitio web de la universidad", "¿Cómo accedo a la página de la UNAL Medellín?"],
-      "responses": ["Aquí tienes el link a la página principal de la Universidad Nacional de Colombia, sede Medellín: [UNAL Medellín](http://medellin.unal.edu.co/)"]
+      "tag": "biblioteca",
+      "patterns": [
+        "¿Dónde está ubicada la biblioteca?",
+        "¿Cómo puedo pedir libros en la biblioteca?",
+        "¿Qué servicios ofrece la biblioteca de la universidad?",
+        "¿Hay algún sistema de préstamo de libros?"
+      ],
+      "responses": [
+        "Puedes encontrar la biblioteca en el edificio principal. Para pedir libros y conocer más sobre los servicios y el sistema de préstamo, visita https://bibliotecas.unal.edu.co/ 📚"
+      ]
     },
     {
-      "tag": "contacto_facultad_ingenieria",
-      "patterns": ["¿Cómo puedo contactar a la facultad de ingeniería?", "Número de la facultad de ingeniería"],
-      "responses": ["Puedes llamar a la Facultad de Ingeniería al número +57 4 4309350 o visitar su página web para más detalles: [Facultad de Ingeniería](http://ingenieria.medellin.unal.edu.co/)"]
-    },
-    {
-      "tag": "contacto_biblioteca",
-      "patterns": ["¿Cuál es el contacto de la biblioteca?", "Email de la biblioteca central", "Teléfono de la biblioteca"],
-      "responses": ["Para contactar la biblioteca puedes llamar al +57 4 4309022 o enviar un correo a biblioteca_med@unal.edu.co. También puedes visitar su página web: [Biblioteca UNAL Medellín](http://bibliotecas.medellin.unal.edu.co/)"]
-    },
-    {
-      "tag": "contacto_servicios_estudiantiles",
-      "patterns": ["¿Cómo contacto a servicios estudiantiles?", "Información de contacto de bienestar universitario"],
-      "responses": ["El departamento de Bienestar Universitario se puede contactar al +57 4 4309000 ext. 50000 o por correo a bienestar_med@unal.edu.co. Consulta su web para más información: [Bienestar Universitario](http://bienestar.medellin.unal.edu.co/)"]
-    },
-    {
-      "tag": "contacto_finanzas",
-      "patterns": ["¿A quién llamo si tengo preguntas sobre pagos?", "Contacto del departamento de finanzas"],
-      "responses": ["Para temas de finanzas, puedes contactar al departamento al +57 4 4309000 ext. 40000 o enviar un correo a financiera_med@unal.edu.co. Más detalles en [Finanzas UNAL Medellín](http://financiera.medellin.unal.edu.co/)"]
-    },
-    {
-      "tag": "enlaces_importantes",
-      "patterns": ["¿Dónde encuentro enlaces importantes?", "Necesito enlaces útiles de la UNAL Medellín"],
-      "responses": ["Aquí tienes algunos enlaces útiles: Página principal [UNAL Medellín](http://medellin.unal.edu.co/), Admisiones [Admisiones UNAL](http://admisiones.unal.edu.co/), Bienestar Universitario [Bienestar](http://bienestar.medellin.unal.edu.co/)"]
-    },
-    {
-      "tag": "soporte_tecnico",
-      "patterns": ["Necesito ayuda con el portal académico", "Contacto para soporte técnico", "¿Cómo soluciono problemas técnicos con mi correo institucional?"],
-      "responses": ["Para soporte técnico, contacta al Centro de Atención Informática al +57 4 4309000 ext. 30000 o por correo a soporte_med@unal.edu.co. También puedes visitar [Soporte Técnico](http://soporte.medellin.unal.edu.co/) para más ayuda."]
-    },
-    {
-      "tag": "inscripciones_eventos",
-      "patterns": ["¿Cómo me inscribo a eventos?", "Quiero participar en un evento, ¿qué hago?"],
-      "responses": ["Para inscribirte en eventos, visita la sección de eventos de nuestra página web o contacta a eventos_med@unal.edu.co. Encuentra eventos actuales aquí: [Eventos UNAL Medellín](http://eventos.medellin.unal.edu.co/)"]
-    },
-    {
-      "tag": "servicios_online",
-      "patterns": ["¿Qué servicios en línea ofrece la universidad?", "Acceso a servicios digitales de la UNAL"],
-      "responses": ["Ofrecemos varios servicios en línea como matrícula académica, biblioteca digital, y servicios de bienestar. Accede a través de nuestra página web [Servicios en línea](http://www.medellin.unal.edu.co/servicios/)"]
+      "tag": "registro_matricula",
+      "patterns": [
+        "¿Dónde puedo encontrar información para admitidos de pregrado?",
+        "¿Dónde encuentro información sobre trámites académicos para docentes?",
+        "¿Dónde puedo encontrar información para admitidos de postgrado?"
+      ],
+      "responses": [
+        "Toda la información sobre registro y matrícula para estudiantes de pregrado, postgrado y docentes la puedes encontrar en https://registroymatricula.medellin.unal.edu.co/ 📝"
+      ]
     }
   ]
 }
