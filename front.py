@@ -12,31 +12,31 @@ sidebar.title("Opciones")
 # Divide la pantalla en dos columnas
 col1, col2 = st.columns(2)
 
-# Columna 1: Chat Bot dentro de un formulario
+# Columna 1: Chat Bot
 with col1:
+    # Inicializa el estado de la sesión para almacenar mensajes si aún no está hecho
+    if "messages" not in st.session_state:
+        st.session_state.messages = []
+    if "first_message" not in st.session_state:
+        st.session_state.first_message = True
+
+    # Muestra los mensajes guardados en el estado de la sesión
+    for message in st.session_state.messages:
+        with st.chat_message(message["role"]):
+            st.markdown(message["content"])
+
+    # Envía el primer mensaje del asistente si es la primera interacción
+    if st.session_state.first_message:
+        with st.chat_message("assistant"):
+            st.markdown("Hola, ¿cómo puedo ayudarte?")
+        st.session_state.messages.append({
+            "role": "assistant", "content": "Hola, ¿cómo puedo ayudarte?"
+        })
+        st.session_state.first_message = False
+
+    # Formulario para la entrada del usuario
     with st.form("chat_form"):
-        # Inicializa el estado de la sesión para almacenar mensajes si aún no está hecho
-        if "messages" not in st.session_state:
-            st.session_state.messages = []
-        if "first_message" not in st.session_state:
-            st.session_state.first_message = True
-
-        # Muestra los mensajes guardados en el estado de la sesión
-        for message in st.session_state.messages:
-            with st.chat_message(message["role"]):
-                st.markdown(message["content"])
-
-        # Envía el primer mensaje del asistente si es la primera interacción
-        if st.session_state.first_message:
-            with st.chat_message("assistant"):
-                st.markdown("Hola, ¿cómo puedo ayudarte?")
-            st.session_state.messages.append({
-                "role": "assistant", "content": "Hola, ¿cómo puedo ayudarte?"
-            })
-            st.session_state.first_message = False
-
-        # Captura y maneja la entrada del usuario
-        prompt = st.chat_input("¿cómo puedo ayudarte?", key="input")
+        prompt = st.text_input("¿Cómo puedo ayudarte?", key="input")
 
         # Botón de envío del formulario
         submitted = st.form_submit_button("Enviar")
