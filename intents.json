@@ -9,7 +9,7 @@
       ]
     },
     {
-      "tag": "informacion_general",
+      "tag": "informacion general",
       "patterns": [
         "Cuéntame sobre la Universidad Nacional sede Medellín",
         "Necesito información sobre la Universidad Nacional de Colombia sede Medellín"
@@ -31,7 +31,7 @@
       ]
     },
     {
-      "tag": "programas_academicos",
+      "tag": "programas academicos",
       "patterns": [
         "¿Dónde puedo encontrar los programas de pregrado disponibles?",
         "¿Dónde puedo ver los programas de postgrado que ofrece la universidad?",
@@ -42,7 +42,7 @@
       ]
     },
     {
-      "tag": "programas_disponibles",
+      "tag": "programas disponibles",
       "patterns": [
         "¿Qué programas académicos ofrece la universidad?",
         "¿Qué carreras puedo estudiar en la Universidad Nacional?"
@@ -52,7 +52,7 @@
       ]
     },
     {
-      "tag": "cursos_capacitaciones",
+      "tag": "cursos capacitaciones",
       "patterns": [
         "¿Dónde puedo encontrar cursos de educación continua?",
         "¿Ofrecen cursos de idiomas?",
@@ -63,7 +63,7 @@
       ]
     },
     {
-      "tag": "bienestar_universitario",
+      "tag": "bienestar universitario",
       "patterns": [
         "¿Qué servicios ofrece el bienestar universitario?",
         "¿Cómo puedo acceder a los servicios de salud en la universidad?"
@@ -73,7 +73,7 @@
       ]
     },
     {
-      "tag": "facultad_arquitectura",
+      "tag": "facultad arquitectura",
       "patterns": [
         "¿Qué carreras ofrece la facultad de arquitectura?",
         "Quiero información sobre los programas de la facultad de arquitectura"
@@ -83,7 +83,7 @@
       ]
     },
     {
-      "tag": "facultad_ciencias",
+      "tag": "facultad ciencias",
       "patterns": [
         "¿Qué carreras ofrece la facultad de ciencias?",
         "¿Cuáles son las carreras disponibles en la facultad de ciencias?",
@@ -95,7 +95,7 @@
       ]
     },
     {
-      "tag": "facultad_ciencias_agrarias",
+      "tag": "facultad ciencias agrarias",
       "patterns": [
         "¿Qué carreras ofrece la facultad de ciencias agrarias?",
         "¿Cuáles son las carreras disponibles en la facultad de ciencias agrarias?",
@@ -106,7 +106,7 @@
       ]
     },
     {
-      "tag": "facultad_ciencias_humanas_economicas",
+      "tag": "facultad ciencias humanas economicas",
       "patterns": [
         "¿Qué carreras ofrece la facultad de ciencias humanas y económicas?",
         "¿Cuáles son las carreras disponibles en la facultad de ciencias humanas y económicas?",
@@ -117,7 +117,7 @@
       ]
     },
     {
-      "tag": "facultad_minas",
+      "tag": "facultad minas",
       "patterns": [
         "¿Qué carreras ofrece la facultad de minas?",
         "¿Cuáles son las carreras disponibles en la facultad de minas?",
@@ -139,7 +139,7 @@
       ]
     },
     {
-      "tag": "registro_matricula",
+      "tag": "registro matricula",
       "patterns": [
         "¿Dónde puedo encontrar información para admitidos de pregrado?",
         "Necesito detalles sobre el proceso de matrícula para postgrado"
@@ -149,7 +149,7 @@
       ]
     },
     {
-      "tag": "tramites_academicos",
+      "tag": "tramites academicos",
       "patterns": [
         "¿Dónde puedo realizar trámites estudiantiles?",
         "Quiero realizar un trámite",
@@ -161,7 +161,7 @@
       ]
 },
     {
-  "tag": "ayuda_general",
+  "tag": "ayuda general",
   "patterns": [
     "¿Qué preguntas puedo hacerte?",
     "¿Qué opciones tienes?",
@@ -170,7 +170,7 @@
     "¿Qué servicios ofreces?"
   ],
   "responses": [
-    "Puedes preguntarme sobre: \n- Información general de la Universidad Nacional sede Medellín\n- Admisiones y procesos de matrícula\n- Programas académicos y cursos disponibles\n- Servicios de bienestar universitario\n- Información sobre las facultades y la biblioteca\n- Trámites académicos\n ¿En qué más puedo ayudarte?"
+    "Puedes preguntarme sobre: \n- Información general de la Universidad Nacional sede Medellín\n- Aplicar a un pregrado\n- Programas académicos y cursos disponibles\n- Servicios de bienestar universitario\n- Información sobre las facultades y la biblioteca\n- Trámites académicos\n ¿En qué más puedo ayudarte?"
      ]
 },
 
