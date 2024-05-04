@@ -15,7 +15,7 @@
         "Necesito información sobre la Universidad Nacional de Colombia sede Medellín"
       ],
       "responses": [
-        "La Universidad Nacional de Colombia, Sede Medellín, es conocida por su excelencia académica y su compromiso con la investigación. ¿Quieres saber algo específico?"
+        "La Universidad Nacional de Colombia, Sede Medellín, es reconocida por su excelencia académica y su compromiso con la investigación y la innovación. Fundada en 1938, esta institución ha jugado un papel crucial en el desarrollo de la región de Antioquia, ofreciendo una amplia gama de programas en ingeniería, ciencias, arquitectura y humanidades. Su campus, conocido por su extensa vegetación y arquitectura moderna, crea un ambiente propicio para el estudio y la investigación, atrayendo a estudiantes de todo el país y del extranjero."
       ]
     },
     {
@@ -48,7 +48,7 @@
         "¿Qué carreras puedo estudiar en la Universidad Nacional?"
       ],
       "responses": [
-        "Ofrecemos una amplia gama de programas académicos en diversas facultades. ¿Te interesa alguna facultad en particular?"
+        "La universidad nacional ofrece distintos programas académicos que se encuentran en las siguientes facultades: facultad de arquitectura, facultad de ciencias, facultad de ciencias agrarias,facultad de ciencias humanas y económicas y por último está la facultad de minas. ¿Deseas conocer los programas ofrecidos en alguna facultad específica?"
       ]
     },
     {
@@ -59,7 +59,7 @@
         "¿Qué cursos pagos están disponibles?"
       ],
       "responses": [
-        "Toda la información sobre nuestros cursos de educación continua y de idiomas la encuentras aquí: https://centrodeidiomas.medellin.unal.edu.co/es/"
+        "La oferta de cursos de educación continua la encuentras en https://medellin.unal.edu.co/educacioncontinua/ y los cursos de idiomas en https://centrodeidiomas.medellin.unal.edu.co/es/"
       ]
     },
     {
@@ -79,7 +79,63 @@
         "Quiero información sobre los programas de la facultad de arquitectura"
       ],
       "responses": [
-        "La facultad de arquitectura ofrece programas en arquitectura y diseño. Puedes encontrar más información aquí: http://www.pregrado.unal.edu.co/programas-acred/"
+        "La facultad de arquitectura ofrece programas en arquitectura, artes plásticas y construcción. Puedes encontrar más información en http://www.pregrado.unal.edu.co/programas-acred/"
+      ]
+    },
+    {
+      "tag": "facultad_ciencias",
+      "patterns": [
+        "¿Qué carreras ofrece la facultad de ciencias?",
+        "¿Cuáles son las carreras disponibles en la facultad de ciencias?",
+        "¿Qué estudios puedo seguir en la facultad de ciencias?",
+        "¿Qué programas ofrece la facultad de ciencias?"
+      ],
+      "responses": [
+        "La facultad de ciencias ofrece estudios en estadística, ingeniería biológica, ingeniería física y matemáticas. Puedes encontrar más información en nuestro sitio web: http://www.pregrado.unal.edu.co/programas-acred/"
+      ]
+    },
+    {
+      "tag": "facultad_ciencias_agrarias",
+      "patterns": [
+        "¿Qué carreras ofrece la facultad de ciencias agrarias?",
+        "¿Cuáles son las carreras disponibles en la facultad de ciencias agrarias?",
+        "¿Qué estudios puedo seguir en la facultad de ciencias agrarias?"
+      ],
+      "responses": [
+        "En la facultad de ciencias agrarias puedes estudiar ingeniería agrícola, ingeniería agronómica, ingeniería forestal, tecnología forestal y zootecnia. Más detalles en http://www.pregrado.unal.edu.co/programas-acred/"
+      ]
+    },
+    {
+      "tag": "facultad_ciencias_humanas_economicas",
+      "patterns": [
+        "¿Qué carreras ofrece la facultad de ciencias humanas y económicas?",
+        "¿Cuáles son las carreras disponibles en la facultad de ciencias humanas y económicas?",
+        "¿Qué estudios puedo seguir en la facultad de ciencias humanas y económicas?"
+      ],
+      "responses": [
+        "La facultad de ciencias humanas y económicas ofrece programas en ciencia política, economía e historia. Consulta más información en nuestro sitio web: http://www.pregrado.unal.edu.co/programas-acred/"
+      ]
+    },
+    {
+      "tag": "facultad_minas",
+      "patterns": [
+        "¿Qué carreras ofrece la facultad de minas?",
+        "¿Cuáles son las carreras disponibles en la facultad de minas?",
+        "¿Qué estudios puedo seguir en la facultad de minas?"
+      ],
+      "responses": [
+        "La facultad de minas ofrece ingenierías en administrativa, ambiental, civil, control, minas y metalurgia, petróleos, sistemas e informática, eléctrica, geológica, industrial, mecánica y química. Más detalles en http://www.pregrado.unal.edu.co/programas-acred/"
+      ]
+    },
+    {
+      "tag": "biblioteca",
+      "patterns": [
+        "¿Dónde está ubicada la biblioteca?",
+        "¿Cómo puedo pedir libros en la biblioteca?",
+        "¿Qué servicios ofrece la biblioteca de la universidad?"
+      ],
+      "responses": [
+        "Puedes encontrar la biblioteca en el edificio principal. Para pedir libros y conocer más sobre los servicios y el sistema de préstamo, visita nuestro sitio web: https://bibliotecas.unal.edu.co/"
       ]
     },
     {
@@ -92,6 +148,19 @@
         "Toda la información sobre registro y matrícula la puedes encontrar en nuestro sitio web: https://registroymatricula.medellin.unal.edu.co/"
       ]
     },
+    {
+      "tag": "tramites_academicos",
+      "patterns": [
+        "¿Dónde puedo realizar trámites estudiantiles?",
+        "Quiero realizar un trámite",
+        "Quiero cambiarme de carrera",
+        "¿Dónde encuentro información sobre trámites académicos para estudiantes?"
+      ],
+      "responses": [
+        "Toda la información sobre trámites para estudiantes y profesores, incluyendo información para cambiarte de carrera, la puedes encontrar en nuestro sitio web: https://registroymatricula.medellin.unal.edu.co/"
+      ]
+},
+
     {
       "tag": "despedida",
       "patterns": ["Adiós", "Hasta luego", "Gracias por la ayuda"],
