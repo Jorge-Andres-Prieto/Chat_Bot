@@ -160,6 +160,19 @@
         "Toda la información sobre trámites para estudiantes y profesores, incluyendo información para cambiarte de carrera, la puedes encontrar en nuestro sitio web: https://registroymatricula.medellin.unal.edu.co/"
       ]
 },
+    {
+  "tag": "ayuda_general",
+  "patterns": [
+    "¿Qué preguntas puedo hacerte?",
+    "¿Qué opciones tienes?",
+    "¿Qué te puedo pedir?",
+    "¿Qué puedes hacer?",
+    "¿Qué servicios ofreces?"
+  ],
+  "responses": [
+    "Puedes preguntarme sobre: \n- Información general de la Universidad Nacional sede Medellín\n- Admisiones y procesos de matrícula\n- Programas académicos y cursos disponibles\n- Servicios de bienestar universitario\n- Información sobre las facultades y la biblioteca\n- Trámites académicos\n¿En qué más puedo ayudarte?"
+     ]
+},
 
     {
       "tag": "despedida",
