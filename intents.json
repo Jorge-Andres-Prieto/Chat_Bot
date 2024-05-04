@@ -1,15 +1,22 @@
 {
   "intents": [
-
     {
       "tag": "saludo",
-      "patterns": ["hola", "buen día", "buenas tardes", "saludos"],
-      "responses": ["¡Hola! 🌟 ¿En qué puedo ayudarte?", "Saludos, bienvenido a la Universidad Nacional de Colombia, sede Medellín 🏛️"]
+      "patterns": ["Hola", "Buen día", "Buenas tardes", "Saludos"],
+      "responses": [
+        "¡Hola! ¿En qué puedo ayudarte hoy?",
+        "Saludos, bienvenido a la Universidad Nacional de Colombia, sede Medellín. ¿Cómo puedo asistirte?"
+      ]
     },
     {
       "tag": "informacion_general",
-      "patterns": ["cuéntame sobre la Universidad Nacional sede Medellín", "información de la Universidad Nacional de Colombia sede Medellín"],
-      "responses": ["La Universidad Nacional de Colombia, Sede Medellín, es reconocida por su excelencia académica y su compromiso con la investigación y la innovación. Fundada en 1938, esta institución ha jugado un papel crucial en el desarrollo de la región de Antioquia, ofreciendo una amplia gama de programas en ingeniería, ciencias, arquitectura y humanidades. Su campus, conocido por su extensa vegetación y arquitectura moderna, crea un ambiente propicio para el estudio y la investigación, atrayendo a estudiantes de todo el país y del extranjero. 🎓"]
+      "patterns": [
+        "Cuéntame sobre la Universidad Nacional sede Medellín",
+        "Necesito información sobre la Universidad Nacional de Colombia sede Medellín"
+      ],
+      "responses": [
+        "La Universidad Nacional de Colombia, Sede Medellín, es conocida por su excelencia académica y su compromiso con la investigación. ¿Quieres saber algo específico?"
+      ]
     },
     {
       "tag": "admisiones",
@@ -17,41 +24,31 @@
         "¿Cómo puedo aplicar para pregrado?",
         "¿Qué necesito para inscribirme en un programa de postgrado?",
         "¿Dónde encuentro información sobre admisiones?",
-        "Quiero inscribirme a un programa de pregrado",
-        "Quiero inscribirme a un programa de postgrado",
-        "Como puedo entrar a un pregrado",
-        "Como puedo entrar a un postgrado"
-
+        "Quiero inscribirme en un programa, ¿cómo procedo?"
       ],
       "responses": [
-        "Puedes encontrar toda la información sobre el proceso de admisión para pregrado y postgrado en https://admisiones.unal.edu.co/ 📚"
+        "Puedes encontrar toda la información sobre el proceso de admisión en nuestra página web: https://admisiones.unal.edu.co/"
       ]
     },
     {
       "tag": "programas_academicos",
       "patterns": [
-        "¿Dónde puedo encontrar los programas de pregrado que ofrece la universidad?",
         "¿Dónde puedo encontrar los programas de pregrado disponibles?",
-        "¿Dónde puedo encontrar los programas de postgrado disponibles?",
-        "¿Dónde puedo encontrar los programas de postgrado que ofrece la universidad?",
-        "¿Cuáles son las especializaciones que tiene la universidad?"
+        "¿Dónde puedo ver los programas de postgrado que ofrece la universidad?",
+        "¿Cuáles son las especializaciones que ofrece la universidad?"
       ],
       "responses": [
-        "Consulta los programas de pregrado en http://www.pregrado.unal.edu.co/programas-acred/ y los programas de postgrado en https://posgrados.unal.edu.co/catalogo/ 🎓"
+        "Puedes consultar todos nuestros programas de pregrado y postgrado en nuestro catálogo online en https://posgrados.unal.edu.co/catalogo/"
       ]
     },
     {
-      "tag": "Programas_disponibles",
+      "tag": "programas_disponibles",
       "patterns": [
-        "¿Que programas académicos ofrece la universidad nacional?",
-        "¿Que carreras ofrece la universidad nacional?",
-        "¿Que carreras puedo estudiar en la universidad nacional?",
-        "¿Que puedo estudiar en la universidad nacional?",
-        "¿Que programas de pregrado ofrece la universidad nacional?",
-        "Que carreras de pregrado ofrece la universidad nacional?"
+        "¿Qué programas académicos ofrece la universidad?",
+        "¿Qué carreras puedo estudiar en la Universidad Nacional?"
       ],
       "responses": [
-        "La universidad nacional ofrece distintos programas académicos que se encuentran en las siguientes facultades: facultad de arquitectura, facultad de ciencias, facultad de ciencias agrarias,facultad de ciencias humanas y económicas y por último está la facultad de minas. ¿Deseas conocer los programas ofrecidos en alguna facultad específica?."
+        "Ofrecemos una amplia gama de programas académicos en diversas facultades. ¿Te interesa alguna facultad en particular?"
       ]
     },
     {
@@ -59,149 +56,49 @@
       "patterns": [
         "¿Dónde puedo encontrar cursos de educación continua?",
         "¿Ofrecen cursos de idiomas?",
-        "¿Cuáles son los cursos pagos disponibles?",
-        "¿Qué cursos ofrece la universidad?",
-        "¿Cuáles son los cursos de idiomas?",
-        "¿Qué cursos de idiomas tiene la universidad?"
+        "¿Qué cursos pagos están disponibles?"
       ],
       "responses": [
-        "La oferta de cursos de educación continua la encuentras en https://medellin.unal.edu.co/educacioncontinua/ y los cursos de idiomas en https://centrodeidiomas.medellin.unal.edu.co/es/ 🌍"
+        "Toda la información sobre nuestros cursos de educación continua y de idiomas la encuentras aquí: https://centrodeidiomas.medellin.unal.edu.co/es/"
       ]
     },
     {
       "tag": "bienestar_universitario",
       "patterns": [
         "¿Qué servicios ofrece el bienestar universitario?",
-        "¿Cómo puedo acceder a los servicios de salud en la universidad?",
-        "¿Dónde encuentro actividades deportivas?",
-        "¿Qué actividades culturales ofrece la universidad?"
+        "¿Cómo puedo acceder a los servicios de salud en la universidad?"
       ],
       "responses": [
-        "Bienestar Universitario ofrece servicios de salud, cultura, actividad física y deporte, y más. Encuentra más información en https://bienestaruniversitario.medellin.unal.edu.co/ 🏥🎭"
+        "Bienestar Universitario ofrece una variedad de servicios, incluyendo salud, deportes y cultura. Más detalles en https://bienestaruniversitario.medellin.unal.edu.co/"
       ]
     },
-
     {
       "tag": "facultad_arquitectura",
       "patterns": [
         "¿Qué carreras ofrece la facultad de arquitectura?",
-        "¿Cuáles son las carreras disponibles en la facultad de arquitectura?",
-        "¿Qué estudios puedo seguir en la facultad de arquitectura?",
-        "Facultad de arquitectura",
-        "¿Qué programas ofrece la facultad de arquitectura?",
-        "Quiero ver las carreras de la facultad de arquitectura",
-        "Quiero los programas de la facultad de arquitectura"
+        "Quiero información sobre los programas de la facultad de arquitectura"
       ],
       "responses": [
-        "La facultad de arquitectura ofrece programas en arquitectura, artes plásticas y construcción. Puedes encontrar más información en http://www.pregrado.unal.edu.co/programas-acred/ 🏛️"
-      ]
-    },
-    {
-      "tag": "facultad_ciencias",
-      "patterns": [
-        "¿Qué carreras ofrece la facultad de ciencias?",
-        "¿Cuáles son las carreras disponibles en la facultad de ciencias?",
-        "¿Qué estudios puedo seguir en la facultad de ciencias?",
-        "¿Qué programas ofrece la facultad de ciencias?",
-        "Quiero ver las carreras de la facultad de ciencias",
-        "Quiero los programas de la facultad de ciencias"
-      ],
-      "responses": [
-        "La facultad de ciencias ofrece estudios en estadística, ingeniería biológica, ingeniería física y matemáticas. Encuentra más información en http://www.pregrado.unal.edu.co/programas-acred/ 🔬"
-      ]
-    },
-    {
-      "tag": "facultad_ciencias_agrarias",
-      "patterns": [
-        "¿Qué carreras ofrece la facultad de ciencias agrarias?",
-        "¿Cuáles son las carreras disponibles en la facultad de ciencias agrarias?",
-        "¿Qué estudios puedo seguir en la facultad de ciencias agrarias?",
-        "¿Qué programas ofrece la facultad de ciencias agrarias?",
-        "Quiero ver las carreras de la facultad de ciencias agrarias",
-        "Quiero los programas de la facultad de ciencias agrarias"
-      ],
-      "responses": [
-        "En la facultad de ciencias agrarias puedes estudiar ingeniería agrícola, ingeniería agronómica, ingeniería forestal, tecnología forestal y zootecnia. Más detalles en http://www.pregrado.unal.edu.co/programas-acred/ 🌾"
-      ]
-    },
-    {
-      "tag": "facultad_ciencias_humanas_economicas",
-      "patterns": [
-        "¿Qué carreras ofrece la facultad de ciencias humanas y económicas?",
-        "¿Cuáles son las carreras disponibles en la facultad de ciencias humanas y económicas?",
-        "¿Qué estudios puedo seguir en la facultad de ciencias humanas y económicas?",
-        "¿Qué programas ofrece la facultad de ciencias humanas y económicas?",
-        "Quiero ver las carreras de la facultad de ciencias humanas y económicas",
-        "Quiero los programas de la facultad de ciencias humanas y económicas"
-      ],
-      "responses": [
-        "La facultad de ciencias humanas y económicas ofrece programas en ciencia política, economía e historia. Consulta más información en http://www.pregrado.unal.edu.co/programas-acred/ 📚"
-      ]
-    },
-    {
-      "tag": "facultad_minas",
-      "patterns": [
-        "¿Qué carreras ofrece la facultad de minas?",
-        "¿Cuáles son las carreras disponibles en la facultad de minas?",
-        "¿Qué estudios puedo seguir en la facultad de minas?",
-        "¿Qué programas ofrece la facultad de minas?",
-        "Quiero ver las carreras de la facultad de minas",
-        "Quiero los programas de la facultad de minas"
-      ],
-      "responses": [
-        "La facultad de minas ofrece ingenierías en administrativa, ambiental, civil, control, minas y metalurgia, petróleos, sistemas e informática, eléctrica, geológica, industrial, mecánica y química. Más detalles en http://www.pregrado.unal.edu.co/programas-acred/ ⛏️"
-      ]
-    },
-    {
-      "tag": "biblioteca",
-      "patterns": [
-        "¿Dónde está ubicada la biblioteca?",
-        "¿Cómo puedo pedir libros en la biblioteca?",
-        "¿Qué servicios ofrece la biblioteca de la universidad?",
-        "¿Hay algún sistema de préstamo de libros?",
-        "Quiero pedir un libro en la biblioteca",
-        "Que debo ahceer para pedir un libro en la biblioteca"
-      ],
-      "responses": [
-        "Puedes encontrar la biblioteca en el edificio principal. Para pedir libros y conocer más sobre los servicios y el sistema de préstamo, visita https://bibliotecas.unal.edu.co/ 📚"
+        "La facultad de arquitectura ofrece programas en arquitectura y diseño. Puedes encontrar más información aquí: http://www.pregrado.unal.edu.co/programas-acred/"
       ]
     },
     {
       "tag": "registro_matricula",
       "patterns": [
         "¿Dónde puedo encontrar información para admitidos de pregrado?",
-        "¿Dónde puedo encontrar información para admitidos de postgrado?"
+        "Necesito detalles sobre el proceso de matrícula para postgrado"
       ],
       "responses": [
-        "Toda la información sobre registro y matrícula para estudiantes de pregrado, postgrado y docentes la puedes encontrar en https://registroymatricula.medellin.unal.edu.co/ 📝"
-      ]
-    },
-    {
-      "tag": "tramites_academicos",
-      "patterns": [
-        "Dónde epuedo realizar tramites estudiantiles?",
-        "Quiero realizar un tramite",
-        "Quiero cambiarme de carrera",
-        "¿Dónde encuentro información sobre trámites académicos para docentes?",
-        "¿Dónde encuentro información sobre trámites académicos para estudiantes?",
-        "¿Que debo hacer si quiero cambiarme de carrera?",
-        "¿Como puedo realizar un tramite?"
-      ],
-      "responses": [
-        "Toda la información sobre trámites para estudiantes y profesores, incluyendo información para cambiarte de carrera la puedes encontrar en https://registroymatricula.medellin.unal.edu.co/ 📝"
+        "Toda la información sobre registro y matrícula la puedes encontrar en nuestro sitio web: https://registroymatricula.medellin.unal.edu.co/"
       ]
     },
     {
       "tag": "despedida",
-      "patterns": [
-        "Adiós",
-        "Hasta luego",
-        "Gracias por la ayuda"
-      ],
+      "patterns": ["Adiós", "Hasta luego", "Gracias por la ayuda"],
       "responses": [
-        "¡Adiós! Espero haberte ayudado. ¡Vuelve pronto! 👋",
-        "Hasta luego, ¡espero que tengas un gran día! 🌈",
-        "De nada, ¡estoy aquí para ayudarte cuando lo necesites! 😊"
+        "¡Adiós! Espero haberte sido de ayuda. ¡Vuelve pronto!",
+        "Hasta luego, ¡espero que tengas un gran día!",
+        "De nada, ¡estoy aquí para ayudarte cuando lo necesites!"
       ]
     }
   ]
