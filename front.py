@@ -1,16 +1,19 @@
+# Importa Streamlit para construir interfaces de usuario
 import streamlit as st
+
+# Importa funciones del módulo chat_bot
 from chat_bot import predict_class, get_response, intents
 
 # Configura el título de la aplicación de Streamlit
 st.title('🤖 UNalBot')
 
-# Inicializa el estado de la sesión para almacenar mensajes si aún no está hecho
+# Inicializa el estado de la sesión para almacenar mensajes
 if "messages" not in st.session_state:
     st.session_state.messages = []
 if "first_message" not in st.session_state:
     st.session_state.first_message = True
 
-# Sidebar para preguntas frecuentes
+# Configura la barra lateral con preguntas frecuentes
 st.sidebar.title("Preguntas Frecuentes")
 st.sidebar.write("1. ¿Cómo puedo contactar a soporte?")
 st.sidebar.write("R: Puedes contactarnos vía email en soporte@unal.edu.co")
